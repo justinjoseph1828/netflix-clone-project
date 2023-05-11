@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(9, 9, 39);
+  color: white;
+}
+.headerimg {
+  height: 80vh;
+  width: 100%;
+  /* background-position: center; */
+  margin: 10px 10px;
+  position: relative;
+  background-size: cover;
+  background-image: linear-gradient(
+      103.24deg,
+      rgba(0, 8, 29, 0.9) 23.83%,
+      rgba(206, 68, 68, 0.3) 96.1%
+    ),
+    url(images/headerimg.jpg);
+}
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+nav a {
+  color: white;
+}
+.netflix {
+  height: 100px;
+  width: 250px;
+}
+nav button {
+  height: 40px;
+  width: 150px;
+  margin-left: 4px;
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: 70px;
+}
+.navbutton {
+  margin-left: 70%;
+}
+
+.header-content {
+  padding: 300px 0px 40px 250px;
+}
+.header-content h1 {
+  font-size: 90px;
+}
+.header-content h3 {
+  font-size: 30px;
+}
+
+.header-content h4 {
+  font-size: 20px;
+}
+
+form input {
+  margin-top: 20px;
+  height: 55px;
+  width: 400px;
+  padding: 10x;
+  background-color: rgba(0, 0, 0, 0.425);
+  font-size: 17px;
+}
+form button {
+  margin-left: 10px;
+  height: 55px;
+  width: 250px;
+  background-color: #e50914;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  border-radius: 7px;
+  cursor: pointer;
+}
+form a {
+  color: white;
+}
+.section {
+  background-color: rgba(128, 128, 251, 0.123);
+  padding: 20px;
+}
+
+.section1 {
+  display: flex;
+}
+
+.section1-text {
+  margin-top: 200px;
+  margin-left: 250px;
+}
+.section1 img {
+  margin-left: 250px;
+}
+.section1 h3 {
+  font-size: 50px;
+}
+.section1 p {
+  font-size: 19px;
+}
+.section1 u {
+  color: aliceblue;
+  width: 200x;
+  height: 10px;
+}
+.section hr {
+  height: 7px;
+  width: 80%;
+  background-color: rgb(65, 15, 105);
+  color: rgb(63, 31, 73);
+  margin-left: 250px;
+  margin-top: 40px;
+  border: 0;
+}
+.section2 {
+  display: flex;
+}
+
+.section2-text {
+  margin-top: 200px;
+  margin-left: 250px;
+}
+.section2 img {
+  margin-left: 250px;
+}
+.section2 h3 {
+  font-size: 50px;
+}
+.section2 p {
+  font-size: 19px;
+}
+
+.section3 {
+  display: flex;
+}
+
+.section3-text {
+  margin-top: 200px;
+  margin-left: 250px;
+}
+.section3 img {
+  margin-left: 250px;
+}
+.section3 h3 {
+  font-size: 50px;
+}
+.section3 p {
+  font-size: 19px;
+}
+
+.section4 {
+  display: flex;
+}
+
+.section4-text {
+  margin-top: 200px;
+  margin-left: 250px;
+}
+.section4 img {
+  margin-left: 250px;
+}
+.section4 h3 {
+  font-size: 50px;
+}
+.section4 p {
+  font-size: 19px;
+}
+
+.footer1-textbox {
+  height: 80px;
+  width: 1400px;
+  background-color: rgba(17, 34, 71, 0.932);
+  margin-top: 10px;
+  padding-top: 30px;
+  font-size: 24px;
+  padding-left: 40px;
+  cursor: pointer;
+}
+.footer1-textbox strong {
+  float: right;
+  margin-right: 30px;
+  font-size: 50px;
+}
+.footer1 {
+  margin-left: 250px;
+  margin-top: 100px;
+}
+.footer1 h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.footer1-bottom p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+.footer2-text {
+  display: flex;
+  cursor: pointer;
+}
+.footer2 {
+  margin-left: 250px;
+  margin-top: 100px;
+}
+.footer2 p {
+  margin-bottom: 80px;
+}
+.footer2-text li {
+  padding: 10px 250px 10px 0px;
+  list-style: none;
+  font-size: 14px;
+}
+.footer2 button {
+  height: 40px;
+  width: 150px;
+  margin-left: 4px;
+  color: white;
+  background: transparent;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.footer2 button a {
+  color: white;
+}
